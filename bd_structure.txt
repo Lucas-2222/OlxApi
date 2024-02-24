@@ -1,0 +1,24 @@
+user
+- id
+- name
+- email
+- state
+- passwordHash
+- token
+
+categories
+- _id
+- name
+- slug
+
+ads
+- _id 
+- images [{url, default: true}]
+- idUser
+- dateCreated
+- title
+- category
+- price
+- description
+- views
+- status
